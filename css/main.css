@@ -1,0 +1,149 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.container-content {
+  padding: 80px;
+}
+
+.container-content h1 {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 61px;
+  font-family: "Lora", serif;
+  margin-bottom: 40px;
+}
+
+.container-content p {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 40px;
+}
+
+.container-content span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.container2 {
+  position: relative;
+}
+
+.container-extra {
+  background-color: #181719;
+  width: 410px;
+  padding: 20px;
+  position: absolute;
+  bottom: -100px;
+  right: 32px;
+}
+
+.container-extra img {
+  width: 85px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.container-extra p {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.container-extra-flex {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.container-extra-flex h2 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.container-extra-flex span {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #828282;
+}
+
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 300px;
+}
+
+footer span {
+  color: #a9a9a9;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media (max-width: 1050px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .container2 img {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .container-content {
+    text-align: left;
+    padding: 12px;
+  }
+  .container-content h1 {
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 20px;
+  }
+  .container-content p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+  }
+  .container-content span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .container-extra {
+    width: 300px;
+    right: 20px;
+  }
+  footer {
+    padding-top: 160px;
+  }
+  .container2 {
+    z-index: -1;
+  }
+}
