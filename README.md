@@ -20,3 +20,7 @@
     </a>
   </h3>
 </div>
+
+<p align="center">
+  <img src="/Print.png" title="Print">
+</p>
